@@ -1,0 +1,19 @@
+_base_: '../_base_/wrap.yml'
+
+
+model:
+  type: FCN
+  backbone:
+    type: SwinTransformer_base_patch4_window7_224
+    ape: False
+    drop_path_rate: 0.3
+    patch_norm: True
+    pretrained: https://bj.bcebos.com/paddleseg/dygraph/swin_transformer_base_patch4_window7_224_imagenet_1k.tar.gz
+    out_indices: [3]
+  num_classes: 34
+
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+  coef: [1]

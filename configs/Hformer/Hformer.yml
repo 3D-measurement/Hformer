@@ -1,0 +1,17 @@
+_base_: '../_base_/wrap.yml'
+
+model:
+  type: Our
+  pre_trained_img_size: 384
+  backbone:
+    type: HRNet_W18
+  depths: [1,1,1,1]
+  embed_dims: [18, 36, 72, 144]
+  drop_path_rate: 0.4
+  num_classes: 34
+
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+  coef: [1]
