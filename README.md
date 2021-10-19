@@ -1,6 +1,9 @@
 # Hformer: Hybrid CNN-Transformer for Single Wrapped Phase to Fringe Order Prediction Fringe Projection 3D Measurement
 
 Code used for Hformer: Hybrid CNN-Transformer for Single Wrapped Phase to Fringe Order Prediction Fringe Projection 3D Measurement.
+
+The whole codes will be released after the paper has been completely reviewed or accepted.
+
 ## Implementation
 Base on Python 3.7 and PaddlePaddle 2.0
 <!-- ## Main Pipeline
