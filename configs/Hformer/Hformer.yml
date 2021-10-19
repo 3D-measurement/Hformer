@@ -1,7 +1,7 @@
 _base_: '../_base_/wrap.yml'
 
 model:
-  type: Our
+  type: Hformer
   pre_trained_img_size: 384
   backbone:
     type: HRNet_W18
