@@ -3,10 +3,10 @@
 Code used for Hformer: Hybrid CNN-Transformer for Fringe Order Prediction in Phase Unwrapping of Fringe Projection.
 
 The whole codes will be released after the paper has been completely reviewed or accepted.
-The PyTorch version will be public soon.
+
 
 ## Implementation
-Base on Python 3.7 and PaddlePaddle 2.0
+Base on Python 3.7 and PaddlePaddle 2.0. The PyTorch version will be public soon.
 <!-- ## Main Pipeline
 ![mainpipline](https://user-images.githubusercontent.com/84077203/137656145-ee630b3a-e9cd-4faf-9302-b3534bd9952f.png) -->
 
