@@ -1,4 +1,4 @@
-# Hformer: Hybrid CNN-Transformer for Fringe Order Prediction in Phase Unwrapping of Fringe Projection
+<!-- # Hformer: Hybrid CNN-Transformer for Fringe Order Prediction in Phase Unwrapping of Fringe Projection
 
 Code used for Hformer: Hybrid CNN-Transformer for Fringe Order Prediction in Phase Unwrapping of Fringe Projection.
 
@@ -17,3 +17,4 @@ Base on Python 3.7 and PaddlePaddle 2.0. The PyTorch version will be public soon
 codebase of CAT block from https://github.com/linhezheng19/CAT
 
 codebase of Patch Expanding from https://github.com/HuCaoFighting/Swin-Unet
+ -->
