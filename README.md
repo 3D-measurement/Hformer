@@ -13,8 +13,8 @@ Base on Python 3.7 and PaddlePaddle 2.0. The PyTorch version will be public soon
 <!-- ## Representative Visual Results
 ![wrap139](https://user-images.githubusercontent.com/84077203/137653421-9d4baef7-0bc9-4c4a-affe-726cfe87a15c.png)
 ![unwrap139](https://user-images.githubusercontent.com/84077203/137655883-fd9c4e43-50fc-4b31-b394-ab166af21a70.png) -->
-## Acknowledgement
-codebase of CAT block from https://github.com/linhezheng19/CAT
+<!-- ## Acknowledgement -->
+<!-- codebase of CAT block from https://github.com/linhezheng19/CAT
 
-codebase of Patch Expanding from https://github.com/HuCaoFighting/Swin-Unet
- -->
+codebase of Patch Expanding from https://github.com/HuCaoFighting/Swin-Unet -->
+
