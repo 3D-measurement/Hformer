@@ -1,0 +1,19 @@
+_base_: '../_base_/wrap.yml'
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+    - type: CrossEntropyLoss
+    - type: FocalLoss
+      edge_label: True
+    - type: KLLoss
+  coef: [1, 1, 0.3, 2]
+
+model:
+  type: PortraitNet
+  backbone:
+    type: MobileNetV2
+    channel_ratio: 1.0
+    min_channel: 16
+  add_edge: True
+  num_classes: 34

@@ -1,0 +1,25 @@
+_base_: '../_base_/wrap.yml'
+
+model:
+  type: SegmentationTransformer
+  backbone:
+    type: ViT_large_patch16_384
+    pretrained: https://bj.bcebos.com/paddleseg/dygraph/vit_large_patch16_384.tar.gz
+  num_classes: 34
+  backbone_indices: [9, 14, 19, 23]
+  head: pup
+  align_corners: False
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+    - type: CrossEntropyLoss
+    - type: CrossEntropyLoss
+    - type: CrossEntropyLoss
+    - type: CrossEntropyLoss
+  coef: [1, 0.4, 0.4, 0.4, 0.4]
+
+test_config:
+    is_slide: True
+    crop_size: [769, 769]
+    stride: [512, 512]
