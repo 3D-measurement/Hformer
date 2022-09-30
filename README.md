@@ -35,3 +35,6 @@
 # Acknowledgement
 * codebase of CAT block from https://github.com/linhezheng19/CAT
 * codebase of Patch Expanding from https://github.com/HuCaoFighting/Swin-Unet
+
+# Citation
+Xinjun Zhu, Zhiqiang Han, Mengkai Yuan, Qinghua Guo, Hongyi Wang, Limei Song, "Hformer: hybrid convolutional neural network transformer network for fringe order prediction in phase unwrapping of fringe projection," Opt. Eng. 61(9), 093107 (2022), doi: 10.1117/1.OE.61.9.093107.
