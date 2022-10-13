@@ -7,7 +7,8 @@
 ![unwrap139](https://user-images.githubusercontent.com/84077203/137655883-fd9c4e43-50fc-4b31-b394-ab166af21a70.png) -->
 
 
-# Hformer: Hybrid CNN-Transformer network for fringe order prediction in phase unwrapping of fringe projection
+# Xinjun Zhu, Zhiqiang Han, Mengkai Yuan, Qinghua Guo, Hongyi Wang, Limei Song, "Hformer: hybrid convolutional neural network transformer network for fringe order prediction in phase unwrapping of fringe projection," Opt. Eng. 61(9), 093107 (2022), doi: 10.1117/1.OE.61.9.093107.
+
 <!-- ## We show the fringe pattern, the wrapped phase, the fringe order and the unwrapped phase in Fig. \ref{dataset}. The wrapped phase can be obtained with the phase shifting method as follows:
 ![1](https://user-images.githubusercontent.com/84077203/167300823-ed646543-5712-441c-b062-727841b5e9ea.png)
 ![2](https://user-images.githubusercontent.com/84077203/167300824-3d545c7a-3c61-4583-9a15-bd00d0b15332.png)
